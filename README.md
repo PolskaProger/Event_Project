@@ -1,7 +1,7 @@
 # Event_Project
 # Event_Project API
 
-Event_Project API — это веб-приложение для управления событиями, разработанное на .NET 8 с использованием Entity Framework Core и JWT-аутентификации.
+Event_Project API — это веб-приложение для управления событиями, разработанное на .NET 8 с использованием Entity Framework Core.
 
 ## Требования
 
