@@ -1,2 +1,16 @@
 # Event_Project
-Event_Project for ASP .Net internship
+# Event_Project API
+
+Event_Project API — это веб-приложение для управления событиями, разработанное на .NET 8 с использованием Entity Framework Core и JWT-аутентификации.
+
+## Требования
+
+- .NET 8 SDK
+- Visual Studio 2022 или другой редактор кода
+- PostrgeSQL или другой SQL-сервер
+
+## Установка и запуск
+
+1. Клонируйте репозиторий;
+2 Настройте строку подключения к базе данных;
+3 Запустите миграцию базы данных;
