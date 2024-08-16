@@ -1,0 +1,14 @@
+D:\work\DomainLayer\bin\Debug\net8.0\EventsProject.Domain.deps.json
+D:\work\DomainLayer\bin\Debug\net8.0\EventsProject.Domain.runtimeconfig.json
+D:\work\DomainLayer\bin\Debug\net8.0\EventsProject.Domain.dll
+D:\work\DomainLayer\bin\Debug\net8.0\EventsProject.Domain.pdb
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.csproj.AssemblyReference.cache
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.AssemblyInfoInputs.cache
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.AssemblyInfo.cs
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.csproj.CoreCompileInputs.cache
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.dll
+D:\work\DomainLayer\obj\Debug\net8.0\refint\EventsProject.Domain.dll
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.pdb
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.genruntimeconfig.cache
+D:\work\DomainLayer\obj\Debug\net8.0\ref\EventsProject.Domain.dll

@@ -1,0 +1,17 @@
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Application.deps.json
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Application.runtimeconfig.json
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Application.dll
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Application.pdb
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Domain.dll
+D:\work\ApplicationLayer\bin\Debug\net8.0\EventsProject.Domain.pdb
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.csproj.AssemblyReference.cache
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.AssemblyInfoInputs.cache
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.AssemblyInfo.cs
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.csproj.CoreCompileInputs.cache
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsPr.828BA235.Up2Date
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.dll
+D:\work\ApplicationLayer\obj\Debug\net8.0\refint\EventsProject.Application.dll
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.pdb
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.genruntimeconfig.cache
+D:\work\ApplicationLayer\obj\Debug\net8.0\ref\EventsProject.Application.dll

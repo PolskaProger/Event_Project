@@ -1,0 +1,637 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\Events-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\eventsproject.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\entities\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\entities\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\dtos\\participantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\repositories\\participantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\migrations\\20240816120028_addrefreshtokentable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\events-project.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:events-project.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\services\\participantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\interfaces\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\mappings\\eventmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\eventsproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\middlewares\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:middlewares\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\persistence\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\configurations\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\validators\\participantdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\mappings\\participantmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14144C36-1B9C-4C82-9E1B-73BBA6CAEA43}|..\\ApplicationLayer\\EventsProject.Application.csproj|d:\\work\\applicationlayer\\validators\\eventdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F48D169-774D-49EF-8BE2-DF5F651761E3}|..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj|d:\\work\\infrastructurelayer\\eventsproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\eventsproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:eventsproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60DD89C-90CF-4B28-885A-816E3D31E2DA}|..\\DomainLayer\\EventsProject.Domain.csproj|d:\\work\\domainlayer\\interfaces\\iparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|d:\\work\\events-project\\eventsproject.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BEDD3B40-DFB5-407E-8113-4D2AF5CFE612}|EventsProject.API.csproj|solutionrelative:eventsproject.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Interfaces\\IEventRepository.cs*",
+              "RelativeToolTip": "..\\DomainLayer\\Interfaces\\IEventRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:08:43.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Entities\\Participant.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Entities\\Participant.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Entities\\Participant.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Entities\\Participant.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:04:54.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Events.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Entities\\Events.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Entities\\Events.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Entities\\Events.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Entities\\Events.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:04:35.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Entities\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:49:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ParticipantDto.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\DTOs\\ParticipantDto.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\DTOs\\ParticipantDto.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\DTOs\\ParticipantDto.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\DTOs\\ParticipantDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:40:08.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Services\\EventService.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Services\\EventService.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Services\\EventService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:42:03.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsProject.Domain.csproj",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\EventsProject.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\EventsProject.Domain.csproj",
+              "ToolTip": "D:\\work\\DomainLayer\\EventsProject.Domain.csproj",
+              "RelativeToolTip": "..\\DomainLayer\\EventsProject.Domain.csproj",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T14:02:25.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Repositories\\EventRepository.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Repositories\\EventRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:05:24.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "D:\\work\\Events-project\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:59:35.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ParticipantRepository.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Repositories\\ParticipantRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Repositories\\ParticipantRepository.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Repositories\\ParticipantRepository.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Repositories\\ParticipantRepository.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:16:36.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Interfaces\\IRefreshTokenRepository.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Interfaces\\IRefreshTokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:52:32.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\DTOs\\EventDto.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\DTOs\\EventDto.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\DTOs\\EventDto.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\DTOs\\EventDto.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:39:44.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParticipantsController.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Controllers\\ParticipantsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParticipantsController.cs",
+              "ToolTip": "D:\\work\\Events-project\\Controllers\\ParticipantsController.cs",
+              "RelativeToolTip": "Controllers\\ParticipantsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:00:33.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\work\\Events-project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\work\\Events-project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T14:07:52.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\work\\Events-project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:07:54.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\work\\Events-project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:45:05.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240816120028_AddRefreshTokenTable.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Migrations\\20240816120028_AddRefreshTokenTable.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Migrations\\20240816120028_AddRefreshTokenTable.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Migrations\\20240816120028_AddRefreshTokenTable.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Migrations\\20240816120028_AddRefreshTokenTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:00:29.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T11:53:33.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:25:47.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EventMappingProfile.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Mappings\\EventMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Mappings\\EventMappingProfile.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Mappings\\EventMappingProfile.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Mappings\\EventMappingProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:45:01.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Events-project.http",
+              "DocumentMoniker": "D:\\work\\Events-project\\Events-project.http",
+              "RelativeDocumentMoniker": "Events-project.http",
+              "ToolTip": "D:\\work\\Events-project\\Events-project.http",
+              "RelativeToolTip": "Events-project.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-12T13:04:30.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IParticipantService.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Interfaces\\IParticipantService.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Interfaces\\IParticipantService.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Interfaces\\IParticipantService.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Interfaces\\IParticipantService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:41:19.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ParticipantService.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Services\\ParticipantService.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Services\\ParticipantService.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Services\\ParticipantService.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Services\\ParticipantService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:42:29.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Interfaces\\IEventService.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Interfaces\\IEventService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:41:03.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\work\\Events-project\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:28:10.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "D:\\work\\Events-project\\Middlewares\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ErrorDetails.cs",
+              "ToolTip": "D:\\work\\Events-project\\Middlewares\\ErrorDetails.cs",
+              "RelativeToolTip": "Middlewares\\ErrorDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:28:55.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventsProject.Application.csproj",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\EventsProject.Application.csproj",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\EventsProject.Application.csproj",
+              "ToolTip": "D:\\work\\ApplicationLayer\\EventsProject.Application.csproj",
+              "RelativeToolTip": "..\\ApplicationLayer\\EventsProject.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T13:52:46.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EventConfiguration.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Configurations\\EventConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Configurations\\EventConfiguration.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Configurations\\EventConfiguration.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Configurations\\EventConfiguration.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBQwBAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:24:00.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Persistence\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Persistence\\Repository.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Persistence\\Repository.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Persistence\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:17:56.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:13:48.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ParticipantConfiguration.cs",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\Configurations\\ParticipantConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\Configurations\\ParticipantConfiguration.cs",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\Configurations\\ParticipantConfiguration.cs",
+              "RelativeToolTip": "..\\InfrastructureLayer\\Configurations\\ParticipantConfiguration.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:24:25.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ParticipantDtoValidator.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Validators\\ParticipantDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Validators\\ParticipantDtoValidator.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Validators\\ParticipantDtoValidator.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Validators\\ParticipantDtoValidator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:11:31.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ParticipantMappingProfile.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Mappings\\ParticipantMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Mappings\\ParticipantMappingProfile.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Mappings\\ParticipantMappingProfile.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Mappings\\ParticipantMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:45:30.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EventDtoValidator.cs",
+              "DocumentMoniker": "D:\\work\\ApplicationLayer\\Validators\\EventDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationLayer\\Validators\\EventDtoValidator.cs",
+              "ToolTip": "D:\\work\\ApplicationLayer\\Validators\\EventDtoValidator.cs",
+              "RelativeToolTip": "..\\ApplicationLayer\\Validators\\EventDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:06:15.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EventsProject.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\work\\InfrastructureLayer\\EventsProject.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj",
+              "ToolTip": "D:\\work\\InfrastructureLayer\\EventsProject.Infrastructure.csproj",
+              "RelativeToolTip": "..\\InfrastructureLayer\\EventsProject.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T13:52:22.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EventsProject.API.csproj",
+              "DocumentMoniker": "D:\\work\\Events-project\\EventsProject.API.csproj",
+              "RelativeDocumentMoniker": "EventsProject.API.csproj",
+              "ToolTip": "D:\\work\\Events-project\\EventsProject.API.csproj",
+              "RelativeToolTip": "EventsProject.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T13:21:48.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IParticipantRepository.cs",
+              "DocumentMoniker": "D:\\work\\DomainLayer\\Interfaces\\IParticipantRepository.cs",
+              "RelativeDocumentMoniker": "..\\DomainLayer\\Interfaces\\IParticipantRepository.cs",
+              "ToolTip": "D:\\work\\DomainLayer\\Interfaces\\IParticipantRepository.cs",
+              "RelativeToolTip": "..\\DomainLayer\\Interfaces\\IParticipantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:09:13.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\work\\Events-project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\work\\Events-project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T14:07:43.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\work\\Events-project\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\work\\Events-project\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T14:08:02.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EventsProject.API",
+              "DocumentMoniker": "D:\\work\\Events-project\\EventsProject.API.csproj",
+              "RelativeDocumentMoniker": "EventsProject.API.csproj",
+              "ToolTip": "D:\\work\\Events-project\\EventsProject.API.csproj",
+              "RelativeToolTip": "EventsProject.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T14:07:40.599Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
