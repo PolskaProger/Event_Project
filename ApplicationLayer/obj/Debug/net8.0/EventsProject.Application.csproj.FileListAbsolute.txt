@@ -9,6 +9,7 @@ D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.GeneratedMSB
 D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.AssemblyInfoInputs.cache
 D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.AssemblyInfo.cs
 D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.csproj.CoreCompileInputs.cache
+D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.sourcelink.json
 D:\work\ApplicationLayer\obj\Debug\net8.0\EventsPr.828BA235.Up2Date
 D:\work\ApplicationLayer\obj\Debug\net8.0\EventsProject.Application.dll
 D:\work\ApplicationLayer\obj\Debug\net8.0\refint\EventsProject.Application.dll

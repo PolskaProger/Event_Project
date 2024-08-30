@@ -137,11 +137,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\work\\EventsProject.Application\\EventsProject.Application.csproj": {
-                "projectPath": "D:\\work\\EventsProject.Application\\EventsProject.Application.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

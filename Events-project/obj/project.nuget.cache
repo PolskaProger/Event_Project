@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "zLqkKlz/lL1j23XCjp08liqEWKN+Ko4mMPJ3rA0Z+zEQvqmMkOVgzL6GBWR3Db7h7PhibJ/4FEveD4oFnKEieQ==",
-  "success": false,
+  "dgSpecHash": "jmU2dihaRvmiXpnfiUNQaeuusW6Zy3G2mvoSL7Eu0/HE17N+VgSQpNLLM/jC2jgikEofAwW0N3NYWq1jFSAuOg==",
+  "success": true,
   "projectFilePath": "D:\\work\\Events-project\\EventsProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimat\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -96,15 +96,5 @@
     "C:\\Users\\dimat\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\dimat\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Не удалось найти проект \"D:\\work\\EventsProject.Application\\EventsProject.Application.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "D:\\work\\EventsProject.Application\\EventsProject.Application.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

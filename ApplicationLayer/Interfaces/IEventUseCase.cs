@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EventsProject.Application.Interfaces
 {
-    public interface IEventService
+    public interface IEventUseCase
     {
         Task<IEnumerable<EventDto>> GetAllEventsAsync();
         Task<EventDto> GetEventByIdAsync(int id);

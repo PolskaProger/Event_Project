@@ -12,7 +12,6 @@
   </ItemGroup>
 	
 	<ItemGroup>
-		<ProjectReference Include="..\EventsProject.Application\EventsProject.Application.csproj" />
 	</ItemGroup>
 	
   <ItemGroup>

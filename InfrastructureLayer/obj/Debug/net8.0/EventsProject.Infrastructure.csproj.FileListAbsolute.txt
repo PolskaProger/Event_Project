@@ -11,6 +11,7 @@ D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.Genera
 D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.AssemblyInfoInputs.cache
 D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.AssemblyInfo.cs
 D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.csproj.CoreCompileInputs.cache
+D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.sourcelink.json
 D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsPr.43865E8B.Up2Date
 D:\work\InfrastructureLayer\obj\Debug\net8.0\EventsProject.Infrastructure.dll
 D:\work\InfrastructureLayer\obj\Debug\net8.0\refint\EventsProject.Infrastructure.dll

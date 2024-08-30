@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventsProject.Application.Interfaces
 {
-    public interface IParticipantService
+    public interface IParticipantUseCase
     {
         Task RegisterParticipantAsync(ParticipantDto participantDTO);
         Task<IEnumerable<ParticipantDto>> GetParticipantsByEventIdAsync(int eventId);

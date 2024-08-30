@@ -1,4 +1,5 @@
-﻿using EventsProject.Application.DTOs;
+﻿using AutoMapper;
+using EventsProject.Application.DTOs;
 using EventsProject.Application.Interfaces;
 using EventsProject.Domain.Entities;
 using EventsProject.Domain.Interfaces;
@@ -7,16 +8,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AutoMapper;
 
-namespace EventsProject.Application.Services
+namespace EventsProject.Application.UseCases
 {
-    public class ParticipantService : IParticipantService
+    public class ParticipantUseCase : IParticipantUseCase
     {
         private readonly IRepository<Participant> _participantRepository;
         private readonly IMapper _mapper;
 
-        public ParticipantService(IRepository<Participant> participantRepository, IMapper mapper)
+        public ParticipantUseCase(IRepository<Participant> participantRepository, IMapper mapper)
         {
             _participantRepository = participantRepository;
             _mapper = mapper;

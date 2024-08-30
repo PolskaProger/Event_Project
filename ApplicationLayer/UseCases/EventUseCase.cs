@@ -1,23 +1,22 @@
-﻿using EventsProject.Application.DTOs;
+﻿using AutoMapper;
+using EventsProject.Application.DTOs;
 using EventsProject.Application.Interfaces;
 using EventsProject.Domain.Entities;
 using EventsProject.Domain.Interfaces;
-using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace EventsProject.Application.Services
+namespace EventsProject.Application.UseCases
 {
-    public class EventService : IEventService
+    public class EventUseCase : IEventUseCase
     {
         private readonly IRepository<Event> _eventRepository;
         private readonly IMapper _mapper;
 
-        public EventService(IRepository<Event> eventRepository, IMapper mapper)
+        public EventUseCase(IRepository<Event> eventRepository, IMapper mapper)
         {
             _eventRepository = eventRepository;
             _mapper = mapper;
@@ -32,7 +31,7 @@ namespace EventsProject.Application.Services
         public async Task<EventDto> GetEventByIdAsync(int id)
         {
             var @event = await _eventRepository.GetByIdAsync(id);
-            return _mapper.Map<EventDto >(@event);
+            return _mapper.Map<EventDto>(@event);
         }
 
         public async Task<EventDto> GetEventByTitleAsync(string title)

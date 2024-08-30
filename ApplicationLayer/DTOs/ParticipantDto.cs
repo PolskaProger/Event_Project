@@ -14,6 +14,7 @@ namespace EventsProject.Application.DTOs
         public DateTime BirthDate { get; set; }
         public DateTime RegistrationDate { get; set; }
         public string Email { get; set; }
+        public string PasswordHash { get; set; }
         public int EventId { get; set; }
     }
 }

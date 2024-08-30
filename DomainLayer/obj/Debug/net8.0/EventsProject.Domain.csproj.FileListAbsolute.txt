@@ -7,6 +7,7 @@ D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.GeneratedMSBuildEditor
 D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.AssemblyInfoInputs.cache
 D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.AssemblyInfo.cs
 D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.csproj.CoreCompileInputs.cache
+D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.sourcelink.json
 D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.dll
 D:\work\DomainLayer\obj\Debug\net8.0\refint\EventsProject.Domain.dll
 D:\work\DomainLayer\obj\Debug\net8.0\EventsProject.Domain.pdb

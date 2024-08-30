@@ -1,6 +1,5 @@
 using EventsProject.Application.Interfaces;
 using EventsProject.Application.Mappings;
-using EventsProject.Application.Services;
 using EventsProject.Domain.Interfaces;
 using EventsProject.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -9,23 +8,26 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using EventsProject.Infrastructure.Repositories;
+using EventsProject.Application.UseCases;
+using EventsProject.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Настройка конфигурации
 var configuration = new ConfigurationBuilder()
     .SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .AddEnvironmentVariables()
     .Build();
 
-// Add services to the container.
+// Добавление сервисов в контейнер
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "Events API", Version = "v1" });
 
-    // Adding the JWT Security Definition
+    // Добавление определения безопасности JWT
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -52,17 +54,21 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// Register ApplicationDbContext
+// Регистрация ApplicationDbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Регистрация зависимостей
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddAutoMapper(typeof(EventMappingProfile), typeof(ParticipantMappingProfile));
-builder.Services.AddScoped<IEventService, EventService>();
-builder.Services.AddScoped<IParticipantService, ParticipantService>();
+builder.Services.AddScoped<IEventUseCase, EventUseCase>();
+builder.Services.AddScoped<IParticipantUseCase, ParticipantUseCase>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
-builder.Services.AddControllers();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>(); 
 
+// Настройка аутентификации с использованием JWT
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 var key = Encoding.ASCII.GetBytes(jwtSettings["Secret"]);
 
@@ -85,6 +91,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// Настройка авторизации
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("ParticipantOnly", policy =>
@@ -93,7 +100,7 @@ builder.Services.AddAuthorization(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Настройка конвейера обработки HTTP-запросов
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

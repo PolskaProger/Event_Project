@@ -1,7 +1,10 @@
 ﻿using EventsProject.Application.DTOs;
 using EventsProject.Application.Interfaces;
+using EventsProject.Application.UseCases;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Events_project.Controllers
 {
@@ -9,31 +12,33 @@ namespace Events_project.Controllers
     [Route("api/[controller]")]
     public class ParticipantsController : ControllerBase
     {
-        private readonly IParticipantService _participantService;
+        private readonly IParticipantUseCase _participantUseCase;
 
-        public ParticipantsController(IParticipantService participantService)
+        public ParticipantsController(IParticipantUseCase participantUseCase)
         {
-            _participantService = participantService;
+            _participantUseCase = participantUseCase;
         }
 
         [HttpPost]
         public async Task<ActionResult> RegisterParticipant(ParticipantDto participantDTO)
         {
-            await _participantService.RegisterParticipantAsync(participantDTO);
+            await _participantUseCase.RegisterParticipantAsync(participantDTO);
             return CreatedAtAction(nameof(GetParticipantById), new { id = participantDTO.Id }, participantDTO);
         }
 
         [HttpGet("event/{eventId}")]
+        [Authorize(Policy = "ParticipantPolicy")]
         public async Task<ActionResult<IEnumerable<ParticipantDto>>> GetParticipantsByEventId(int eventId)
         {
-            var participants = await _participantService.GetParticipantsByEventIdAsync(eventId);
+            var participants = await _participantUseCase.GetParticipantsByEventIdAsync(eventId);
             return Ok(participants);
         }
 
         [HttpGet("{id}")]
+        [Authorize(Policy = "ParticipantPolicy")]
         public async Task<ActionResult<ParticipantDto>> GetParticipantById(int id)
         {
-            var participant = await _participantService.GetParticipantByIdAsync(id);
+            var participant = await _participantUseCase.GetParticipantByIdAsync(id);
             if (participant == null)
             {
                 return NotFound();
@@ -42,9 +47,10 @@ namespace Events_project.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Policy = "ParticipantPolicy")]
         public async Task<ActionResult> UnregisterParticipant(int id)
         {
-            await _participantService.UnregisterParticipantAsync(id);
+            await _participantUseCase.UnregisterParticipantAsync(id);
             return NoContent();
         }
     }

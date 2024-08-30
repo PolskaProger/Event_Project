@@ -1,10 +1,7 @@
-﻿using EventsProject.Domain.Entities;
-using EventsProject.Domain.Interfaces;
+﻿using System.Threading.Tasks;
+using EventsProject.Application.Interfaces;
+using EventsProject.Application.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace Events_project.Controllers
 {
@@ -12,90 +9,53 @@ namespace Events_project.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
-        private readonly IRefreshTokenRepository _refreshTokenRepository;
+        private readonly IAuthService _authService;
 
-        public AuthController(IConfiguration configuration, IRefreshTokenRepository refreshTokenRepository)
+        public AuthController(IAuthService authService)
         {
-            _configuration = configuration;
-            _refreshTokenRepository = refreshTokenRepository;
+            _authService = authService;
+        }
+
+        [HttpPost("register")]
+        public async Task<ActionResult> Register([FromBody] RegisterModel model)
+        {
+            var email = await _authService.RegisterAsync(model.FirstName, model.LastName, model.BirthDate, model.Email, model.Password);
+            return Ok(new { Email = email });
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        public async Task<ActionResult> Login([FromBody] LoginModel model)
         {
-            // Проверка пользователя (для примера используем статические данные)
-            if (model.Username == "test" && model.Password == "password")
-            {
-                var token = GenerateJwtToken(model.Username);
-                var refreshToken = GenerateRefreshToken();
-
-                var newRefreshToken = new RefreshToken
-                {
-                    Token = refreshToken,
-                    Username = model.Username,
-                    Expires = DateTime.UtcNow.AddDays(double.Parse(_configuration["JwtSettings:RefreshTokenExpiration"])),
-                    Created = DateTime.UtcNow,
-                    IsRevoked = false
-                };
-
-                await _refreshTokenRepository.AddTokenAsync(newRefreshToken);
-
-                return Ok(new { token, refreshToken });
-            }
-
-            return Unauthorized();
+            var tokens = await _authService.LoginAsync(model.Email, model.Password);
+            return Ok(tokens);
         }
 
         [HttpPost("refresh")]
-        public async Task<IActionResult> Refresh([FromBody] RefreshRequest model)
+        public async Task<ActionResult> Refresh([FromBody] RefreshRequest model)
         {
-            var storedToken = await _refreshTokenRepository.GetTokenAsync(model.RefreshToken);
-            if (storedToken != null && !storedToken.IsRevoked && storedToken.Expires > DateTime.UtcNow)
-            {
-                var token = GenerateJwtToken(storedToken.Username);
-
-                return Ok(new { token });
-            }
-
-            return Unauthorized();
+            var tokens = await _authService.RefreshTokenAsync(model.Token, model.RefreshToken);
+            return Ok(tokens);
         }
+    }
 
-        private string GenerateJwtToken(string username)
-        {
-            var jwtSettings = _configuration.GetSection("JwtSettings");
-            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings["Secret"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: jwtSettings["Issuer"],
-                audience: jwtSettings["Audience"],
-                claims: new[]
-                {
-                new Claim(JwtRegisteredClaimNames.Sub, username),
-                new Claim("Role", "Participant")
-                },
-                expires: DateTime.Now.AddMinutes(double.Parse(jwtSettings["AccessTokenExpiration"])),
-                signingCredentials: creds);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-        private string GenerateRefreshToken()
-        {
-            return Guid.NewGuid().ToString();
-        }
+    public class RegisterModel
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 
     public class LoginModel
     {
-        public string Username { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
     }
 
     public class RefreshRequest
     {
+        public string Token { get; set; }
         public string RefreshToken { get; set; }
-        public string Username { get; set; }
     }
 }
